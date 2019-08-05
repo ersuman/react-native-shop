@@ -250,7 +250,7 @@ const Route = createStackNavigator(
  	headerStyle: {
  		backgroundColor: themes.BACKGROUND_COLOR,
  		// paddingHorizontal: 10, // this doesn't work :( 
-		// solution: add padding on left(logo) and right(cart) components of header
+		// solution: add padding on left(logo) and right(cart) components of header => done
  	},
  	headerTintColor: '#fff'
  }
