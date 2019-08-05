@@ -51,7 +51,7 @@ export class Cart extends Component {
     	const { cartItems } = this.props;
     	let animatedStyle = {opacity: this.state.opacity}
         return (
-            <Animated.View style={[styles.container, animatedStyle]}>
+            <Animated.View style={[styles.container, animatedStyle, { paddingRight: 10 }]}>
             	<TouchableOpacity onPress={this.onPress}>
             		<Text style={styles.cart}>Your cart: {(cartItems).length} items</Text>
             	</TouchableOpacity>
