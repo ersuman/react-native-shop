@@ -246,10 +246,10 @@ const Route = createStackNavigator(
   Receipt: { screen: Receipt}
 },
 {
- navigationOptions: {
+ defaultNavigationOptions: {
  	headerStyle: {
  		backgroundColor: themes.BACKGROUND_COLOR,
- 		paddingHorizontal: 10,
+ 		// paddingHorizontal: 10, // this doesn't work :( => add padding on left and right components
  	},
  	headerTintColor: '#fff'
  }
