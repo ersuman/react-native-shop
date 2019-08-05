@@ -15,7 +15,7 @@ class Logo extends Component {
   }
   render() {
     return (
-      <TouchableOpacity onPress={this.goHome}>
+      <TouchableOpacity onPress={this.goHome} style={{ paddingLeft: 10 }}>
           <Image source={logoImage} style={{width:32, height:32}}/>
       </TouchableOpacity>
     );
